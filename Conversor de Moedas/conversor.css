@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(#485d83, #70548a);
+    min-height: 400px;
+    height: 100vh;
+  }
+  
+  .container-title {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: rgb(0, 0, 0);
+    margin: 100px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 28.185rem;
+  }
+  
+  h1 {
+    color: #000000;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .container .box {
+    width: 100%;
+    display: flex;
+  }
+  
+  .box div {
+    width: 100%;
+  }
+  
+  select {
+    width: 95%;
+    height: 2.5rem;
+    margin: 0.2em 0;
+    padding: 0 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background: white;
+  }
+  
+  
+  input {
+    width: 95%;
+    height: 2.5rem;
+    margin: 0.2rem 0;
+    padding: 0 1rem;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+    background: rgba(10,23,55,0.5);
+    outline: none;
+  
+  }
+  
+  .button-converter {
+    width: 75%;
+    height: 40px;
+    margin: 1em 4em;
+    font-size: 1em;
+    background: rgb(114, 106, 136);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+  }
+  
+  .button-converter:hover {
+    background-color: rgba(153, 136, 177, 0.8);
+  }
+  
